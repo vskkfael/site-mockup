@@ -5,6 +5,7 @@
 :root {
     --cor0: #000000;
     --cor1: #ffffff;
+    --cor2: #ff0000;
 
     --font-padrao: Arial, Helvetica, Verdana, sans-serif;
     --font-destaque: "Bebas Neue", sans-serif;
@@ -161,7 +162,7 @@ body {
 
 /* --- REGRAS PARA CELULAR (Telas de até 768px) --- */
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
     .main-header {
         flex-direction: column; /* Empilha logo e menu */
         gap: 15px;
@@ -187,12 +188,18 @@ body {
 
     .hero-text h1 {
         font-size: 80px;
-        margin-top: 10px;
+        max-width: 500px;
+        margin-top: 10%;
         margin-bottom: 30px;
     }
 
     .hero-text p {
-        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 22px;
+        max-width: 530px;
+        margin-bottom: 35px;
     }
 
     #btn1, #btn2 {
