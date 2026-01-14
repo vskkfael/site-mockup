@@ -38,7 +38,7 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 30px;
 
 }
 
@@ -51,7 +51,7 @@ body {
 .nav-menu ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
 
 }
 
@@ -104,27 +104,29 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .hero-text {
-    width: 100%
+    width: 950px;
 }
 
 .hero-text h1 {
     color: var(--cor1);
     font-family: var(--font-padrao);
-    max-width: 800px;
-    font-size: 90px
+    text-shadow: 3px 3px 5px black;
+    max-width: 1000px;
+    font-size: 100px
 
 }
 
 .hero-text p {
-    color: rgb(240, 230, 230);
-    font-size: calc(10px + 2vw);
+    color: rgb(241, 240, 240);
+    text-shadow: 1px 1px 1px black;
+    font-size: calc(10px + 1vw);
     font-weight: normal;
-    margin-top: 5%;
-    margin-bottom: -5%;
+    margin-top: 4%;
+    margin-bottom: 5%;
 }
 
 /* Botão Inferior Page 1 */
