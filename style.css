@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .hero-text {
@@ -128,7 +128,6 @@ body {
     font-size: calc(10px + 1vw);
     font-weight: normal;
     margin-top: 4%;
-    margin-bottom: 5%;
 }
 
 /* Botão Inferior Page 1 */
@@ -164,7 +163,46 @@ body {
 
 @media (max-width: 768px) {
     .main-header {
-        flex-direction: row; /* Empilha logo e menu */
+        flex-direction: column; /* Empilha logo e menu */
         gap: 15px;
+        padding: 10px 5%;
+    }
+
+    .container {
+        gap: 15px;
+    }
+
+    .nav-menu ul {
+        text-align: center;
+    }
+
+    .btn-comecar {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .hero {
+        height: 81vh;
+    }
+
+    .hero-text h1 {
+        font-size: 80px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    #btn1, #btn2 {
+        max-width: 150px;
+        width: 100%;
+        margin: 10px 15px;
+        border-width: 15px;
+    }
+
+    #btn1 {
+        margin-right: 0px;
     }
 }
