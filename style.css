@@ -51,7 +51,7 @@ body {
 .nav-menu ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 6px;
 
 }
 
@@ -66,10 +66,10 @@ body {
 
 .btn-comecar {
     background-color: #155DFC;
-    outline: 10px solid #155DFC;
-    width: 110px;
+    border: 8px solid #155DFC;
+    width: 90px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 9px;
 
 }
 
